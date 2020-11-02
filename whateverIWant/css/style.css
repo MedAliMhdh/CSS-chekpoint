@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    background:#EAF3F1;
+}
+*{
+    font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+
+.SectionTitle{
+    text-align: center;
+    padding-bottom: 30px;;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color: black;
+}
+
+.centralize{
+    width: 900px;
+    margin: 50px auto;
+
+}
+
+/**************** HEADER *****************/
+header{
+    height: 120px;
+    background: #EFF4EF;
+}
+
+header nav{
+    float: right;
+    margin-top: 50px;
+    
+}
+
+header nav ul li{
+    float: left;
+    display: inline-block;
+}
+header nav ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+
+#title{
+    float:left;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-left: 3px;
+}
+
+
+#photoProf{
+    width: 450px;
+    height: 600px;
+}
+
+
+/**************** About Me *****************/
+
+#about{
+    height: 650px;
+}
+
+img{
+    float:left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#imageCompanion{
+    margin-top: 200px;
+    line-height: 30px;
+    width:400px;
+    float: right;
+    display: inline-block;
+}
+
+/**************** Professional experience *****************/
+
+#Professional_experience{
+    height: 700px;
+    padding: 10px 0;
+    background: #EFF4EF;
+    line-height: 30px;
+}
+
+#p1{
+    width:600px;
+    float:right;
+    position: relative;
+    bottom: 80px;
+}
+
+#p2{
+    width:600px;
+    float:right;
+    position: relative;
+    bottom: 80px;
+}
+
+#p3{
+    width:600px;
+    float:right;
+    position: relative;
+    bottom: 80px;
+}
+
+#Professional_experience div ul li{
+    height: 150px;
+    width: 1000px;
+    float:left;
+}
+
+#Professional_experience div ul li h4{
+
+    width:300px;
+}
+
+
+/**************** education*****************/
+
+#education{
+    height: 200px;
+}
+
+#education div ul li {
+    height: 100px;
+    width: 220px;
+    text-align: center;
+    float: left;
+    margin-left: 170px;
+    line-height: 30px;
+}
+
+
+/**************** Contact me *****************/
+
+#contact{
+    background: #EFF4EF;
+    height: 270px;
+    margin: auto auto;
+}
+
+.FormItem{
+    width: 45%;
+    height: 20px;
+    background: #EFF4EF;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-top:#EFF4EF;
+    border-right:#EFF4EF;
+    border-left: #EFF4EF;    
+}
+
+#textarea{
+    width: 90%;
+    height: 80px;
+    background: #EFF4EF;
+    border-top:#EFF4EF;
+    border-right:#EFF4EF;
+    border-left: #EFF4EF;
+}
+
+#submitt{
+
+    width: 90%;
+    height: 40px;
+    background: #EFF4EF;
+    border: groove;
+}
+
+/**************** Footer *****************/
+
+footer{
+    height: 40px;
+}
+
+#copyr{
+    margin-top: 5px;
+}
+
+#coordonnées{
+    float:right;
+}
+
